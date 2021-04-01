@@ -13,10 +13,10 @@ import net.serenitybdd.core.pages.WebElementFacade;
 public class TopMenuSection extends BasePage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By ACCOUNT_BUTTON;
-  public static By LOGIN_BUTTON;
-  public static By SEARCH_ICON;
-  public static By SEARCH_FIELD;
+  public static By ACCOUNT_BUTTON = css("button[id='navbarAccount']");
+  public static By LOGIN_BUTTON = css("button[id='navbarLoginButton']");
+  public static By SEARCH_ICON = css("mat-icon[class='mat-icon notranslate mat-ripple mat-search_icon-search ng-tns-c241-1 material-icons mat-icon-no-color']");
+  public static By SEARCH_FIELD = css("input[id='mat-input-0']");
   public static By SHOPPING_CART_BUTTON;
   public static By CHOOSE_LANGUAGE_BUTTON;
   public static By LANGUAGE_LIST;
